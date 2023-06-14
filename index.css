@@ -124,6 +124,9 @@ ul {
 .gray-content {
     display: flex;
     background: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
     flex: 1;
     justify-content: center;
     flex-direction: column;
@@ -166,4 +169,18 @@ ul {
 
 .subtext {
     text-align: center;
+}
+
+.quote {
+    padding: 0px 500px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.Thor {
+    padding: 0px 500px;
+    text-align: right;
+    margin-right: 30px;
 }
