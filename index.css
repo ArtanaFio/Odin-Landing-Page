@@ -1,0 +1,46 @@
+/* index.css to style index.html of Odin-Landing-Page */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    background: #1F2937;
+    color: #ffffff;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.white-content {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: 5px solid #3882F6;
+    padding: 20px;
+}
+
+.gray-content {
+    background: #e5e7eb;
+}
+
+.last-content {
+    backgroud: #ffffff;
+}
+
+.footer {
+    background: #1f2937;
+    color: #ffffff;
+}
