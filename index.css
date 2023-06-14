@@ -1,7 +1,6 @@
 /* index.css to style index.html of Odin-Landing-Page */
 
 body {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -11,19 +10,19 @@ body {
     background: #1F2937;
     display: flex;
     flex-direction: column;
-    flex: 5;
+    height: 500px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    flex: 10;
+    height: 1500px;
 }
 
 .footer {
     background: #1f2937;
     color: #ffffff;
-    flex: 1;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,6 +37,7 @@ body {
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .header-text,
@@ -57,7 +57,8 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 0px 400px;
+    margin: 0px 200px;
+    margin-top: 15px;
 }
 
 .sign-up {
@@ -72,17 +73,18 @@ ul {
 
 .right {
     display: flex;
-    background: gray;
+    background: rgb(123, 123, 128);
     color: #e5e7eb;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
     
 }
 
 .top {
     display: flex;
     justify-content: center;
-    margin: 0px 400px;
+    margin: 0px 200px;
     gap: 50px;
 }
 
@@ -96,6 +98,30 @@ ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex: 1;
+    margin: 10px 300px;
+    align-items: 
+}
+
+.gray-content {
+    display: flex;
+    background: #e5e7eb;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.last-content {
+    backgroud: #ffffff;
+    flex: 1;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    font-size:36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .blocks {
@@ -103,15 +129,17 @@ ul {
     justify-content: space-around;
 }
 
+.one {
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
     border: 5px solid #3882F6;
     padding: 20px;
-}
-
-.gray-content {
-    background: #e5e7eb;
-}
-
-.last-content {
-    backgroud: #ffffff;
+    border-radius: 7px;
+    width: 100px;
+    height: 100px;
 }
