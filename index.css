@@ -53,6 +53,12 @@ body {
 .links {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: #01a01c;
 }
 
 ul {
