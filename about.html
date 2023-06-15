@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>EAWA About</title>
+        <style>
+            body {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                font-family: "roboto";
+                }
+
+            .header {
+                display: flex;
+                justify-content: space-between;
+                background: #1f3724;
+                padding: 50px 100px;
+                }    
+
+            .header-logo {
+                color: #f9faf8;
+                font-size: 24px;
+                font-weight: bold;
+                text-shadow: 2px 2px #01a01c;
+                }
+
+            .header-text,
+            .links {
+                font-size: 18px;
+                color: #e5e7eb;
+                text-decoration: none;
+                font-weight: bold;
+                }
+
+            .links:hover {
+                text-decoration: underline;
+                color: #01a01c;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                gap: 30px;
+                }    
+            
+            .content{
+                display: flex;
+                flex: 1;
+                font-size: 48px;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0px 175px;
+            }
+
+            .MD {
+                color:#01a01c;
+            }
+            
+            .MD:hover {
+                text-decoration: none;
+            }
+
+            .love {
+                text-align: right;
+            }
+
+            span {
+                color: #01a01c;
+                text-shadow: 10px 10px 10px #1f3724;
+            }
+
+            .footer {
+                background: #1f3724;
+                color: #ffffff;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-logo">Eastern American Wildlife Association</div>
+            <ul>
+                <li><a class="links" href="index.html">Home</a></li>
+                <li><a class="links" href=wildlife.html>Wildlife Species</a></li>
+                <li><a class="links" href=donate.html>Donate</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <p>The Eastern American Wildlife Association (EAWA) is a fictional nonprofit. 
+                The landing page is an example project provided by
+                 <a class="MD" href="https://www.theodinproject.com">The Odin Project</a> 
+                 to showcase skills such as HTML and CSS, especially the use of flexboxes to build
+                a webpage.
+            </p>
+            <p>All information was based off the information provided by Maryland's 
+                Department of Natural Resources 
+                <a class="MD" href="https://dnr.maryland.gov/wildlife/Pages/plants_wildlife/mdwllists.aspx">Maryland's Wildlife Species Webpage</a>.
+                If you wish to donate to a nature conservation organization, we encourage
+                you to find your local nonprofit.
+            </p>
+            <p class="love">&#8212  Much love and peace  <span>&#10084</span></p>
+        </div>
+
+        <div class="footer">Copyright &#169 The Odin Project 2021</div>
+    </body>
+</html>
